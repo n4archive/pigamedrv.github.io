@@ -32,4 +32,4 @@ Run this uninstaller as root:
 rm /etc/apt/apt.conf.d/10defaultRelease
 rm /etc/apt/preferences.d/libsdl
 apt update
-apt full-upgrade
+apt full-upgrade`

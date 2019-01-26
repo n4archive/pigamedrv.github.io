@@ -12,7 +12,7 @@ Touchscreen -->* TSLIB -->** PyGame/SDL --> App
 No. TSLIB says "That is not a touchscreen."
 #### Notes
 * This connection (Touchscreen to TSLIB) doesn't work.
-** To make this connection (TSLIB to SDL) work properly you need the [reverted libsdl1.2debian](https://pigamedrv.github.io/reverted_sdl_libary)
+** To make this connection (TSLIB to SDL) work properly you need the [reverted libsdl1.2debian](https://pigamedrv.github.io/technical_details/reverted_sdl_libary)
 ### Direct EVDev
 #### Connection details
 Touchscreen --> Kernel/EVDev -->* PyGame/SDL --> App

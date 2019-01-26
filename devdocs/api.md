@@ -8,4 +8,4 @@ Constructor.
 
     __init__(self,rotation:int=90,v2:bool=True,buttons=[True,True,True,True])
 
-`rotation:int=90`: PiTft Rotation [Supported Values: `90` and `270`]
+> `rotation:int=90`: PiTft Rotation (Supported Values: `90` (default) and `270`) (Type: int)

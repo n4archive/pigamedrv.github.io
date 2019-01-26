@@ -1,2 +1,2 @@
-# Dev page for HelpLink
+# Language selector page for HelpLink
 Deutsch/German: https://pigamedrv.github.io/userdoc/helplink/de/

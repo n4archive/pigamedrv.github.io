@@ -8,5 +8,6 @@ If you have new displays, see [#4](https://github.com/pigamedrv/pigame/issues/4)
 
 ## Software
 
+  * [pigame for users](https://pigamedrv.github.io/userdoc/)
   * [pigame for developers](https://pigamedrv.github.io/devdocs/)
   * [Reverted LibSDL](https://pigamedrv.github.io/technical_details/reverted_sdl_libary)

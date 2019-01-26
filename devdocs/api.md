@@ -2,7 +2,10 @@
 # API documentation
 ## PiTft
 The main class.
-### __init__
+### __init__()
 Constructor.
 #### Parameters
-`__init__(self,rotation:int=90,
+
+    __init__(self,rotation:int=90,v2:bool=True,buttons=[True,True,True,True])
+
+`rotation:int=90`: PiTft Rotation [Supported Values: `90` and `270`]

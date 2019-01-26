@@ -6,8 +6,11 @@ If you have new displays, see [#4](https://github.com/pigamedrv/pigame/issues/4)
 
   * [Adafruit PiTFT+ 2.8" Capacitive](https://pigamedrv.github.io/technical_details/adafruit_pitft-plus_2-8_capacitive)
 
-## Software
+## Software documentation
 
   * [pigame for users](https://pigamedrv.github.io/userdoc/)
   * [pigame for developers](https://pigamedrv.github.io/devdocs/)
+
+## Others
+
   * [Reverted LibSDL](https://pigamedrv.github.io/technical_details/reverted_sdl_libary)

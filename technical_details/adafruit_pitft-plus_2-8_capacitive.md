@@ -7,19 +7,19 @@ Touchscreen --> Kernel/EVDev --> pitft_touchscreen --> pigame --> PyGame/SDL -->
 yes
 ### TSLIB
 #### Connection details
-Touchscreen -->* TSLIB -->** PyGame/SDL --> App
+Touchscreen -->[1] TSLIB -->[2] PyGame/SDL --> App
 #### Working?
 No. TSLIB says "That is not a touchscreen."
 #### Notes
-* This connection (Touchscreen to TSLIB) doesn't work.
-** To make this connection (TSLIB to SDL) work properly you need the [reverted libsdl1.2debian](https://pigamedrv.github.io/technical_details/reverted_sdl_libary)
+[1] This connection (Touchscreen to TSLIB) doesn't work.
+[2] To make this connection (TSLIB to SDL) work properly you need the [reverted libsdl1.2debian](https://pigamedrv.github.io/technical_details/reverted_sdl_libary)
 ### Direct EVDev
 #### Connection details
-Touchscreen --> Kernel/EVDev -->* PyGame/SDL --> App
+Touchscreen --> Kernel/EVDev -->[1] PyGame/SDL --> App
 #### Working
 No. EVDev lets the cursor jumping aroung.
 #### Notes
-* This connection is really buggy!
+[1] This connection is really buggy!
 ## Maintainer
 nift4
 

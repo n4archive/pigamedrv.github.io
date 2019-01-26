@@ -3,10 +3,11 @@
 TSLIB only works with this old version.
 ## Install Reverted
 Run this installer as root:
-> #!/bin/bash
-> # Installer by heine
-> # enable wheezy package sources
-> echo "deb http://archive.raspbian.org/raspbian wheezy main
+<code>
+#!/bin/bash
+# Installer by heine
+# enable wheezy package sources
+echo "deb http://archive.raspbian.org/raspbian wheezy main
 > " > /etc/apt/sources.list.d/wheezy.list
 > # 
 > # set stable as default package source (currently stretch)

@@ -1,3 +1,4 @@
+Warnung: Dieses Problem ist nur in alten Versionen
 # Problem HS000001: Der Mauszeiger springt herum 
 ## Beschreibung
 Der Mauszeiger springt herum wenn ich meinen Finger bewegen.

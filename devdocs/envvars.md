@@ -13,3 +13,5 @@ Invert X (only touch, not display!). Set this to `on` or `off`. If unset or inva
 Invert Y (only touch, not display!). Set this to `on` or `off`. If unset or invalid, defaults to `off`. Can be overwritten programmatically.
 ## PIGAME_SWAPXY
 Swap X and Y (done before INVERTX/INVERTY) (only touch, not display!). Set this to `on` or `off`. If unset or invalid, defaults to `off`. Can be overwritten programmatically.
+## PIGAME_V2
+Pi has GPIO numbers revision 2 (only possible(!) to be false on Pi 2 and older). Set this to `on` or `off`. If unset or invalid, defaults to `on`. Can be overwritten programmatically.
